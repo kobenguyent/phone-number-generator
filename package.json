@@ -1,6 +1,6 @@
 {
   "name": "phone-number-generator",
-  "version": "0.0.0-development",
+  "version": "1.0.1",
   "description": "Mobile Phone number generator: Saudi, UAE, KW, BH, QA, OM",
   "main": "index.js",
   "scripts": {
