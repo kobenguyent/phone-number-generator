@@ -32,5 +32,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/PeterNgTr/phone-number-generator.git"
-  }
+  },
+  "release": { "branches": [ "main" ] }
 }
