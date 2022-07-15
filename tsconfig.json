@@ -10,7 +10,7 @@
     "strictNullChecks": false,
     "types": ["jest", "node"],
     "declaration": true,
-    "outDir": "./dist",
+    "outDir": "./",
     "baseUrl": "./",
     "skipLibCheck": true
   },

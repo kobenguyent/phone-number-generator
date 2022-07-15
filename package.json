@@ -26,7 +26,8 @@
     "typescript": "^4.3.5"
   },
   "files": [
-    "dist/*",
+    "index.d.ts",
+    "index.js",
     "README.md"
   ],
   "repository": {
