@@ -1,4 +1,3 @@
-```
 # phone-mobile-generator
 
 Creates random mobile phone numbers with a given country id.
