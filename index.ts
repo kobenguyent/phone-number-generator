@@ -1,3 +1,4 @@
+const supportedCountryList = ['DE', 'SA', 'AE', 'KW', 'BH', 'QA', 'OM', 'VN'];
 const countryPhoneCodeMapping = {'DE': '+49','SA': '+966', 'AE': '+971', 'KW': '+965', 'BH': '+973', 'QA': '+974', 'OM': '+968', 'VN': '+84'};
 const phoneNumberLengthMapping = {
     'DE': 7, 'SA': 7, 'AE': 7, 'KW': 6, 'BH': 6, 'QA': 6, 'OM': 6, 'VN': 7
@@ -13,8 +14,7 @@ const phonePrefixMapping = {
     'VN': ['91', '92', '93', '94', '96', '97', '98', '99', '32', '33', '34', '35', '36', '37', '38', '52', '56', '58', '59', '70', '76', '77', '78', '79', '81', '82', '83', '84', '85', '86', '87', '88', '89' ]
 };
 function supportedCountry(country = 'SA') {
-    const supportedList = ['DE', 'SA', 'AE', 'KW', 'BH', 'QA', 'OM', 'VN'];
-    return supportedList.includes(country) ? country : 'SA';
+    return supportedCountryList.includes(country) ? country : 'SA';
 }
 
 function getRandom(list) {
@@ -36,7 +36,7 @@ function getRandomInt(min, max) {
 }
 
 export class PhoneNumber {
-    phoneNumberGenerator(country = 'SA', withCountryCode = false) {
+    static phoneNumberGenerator(country = 'SA', withCountryCode = false) {
         const _country = supportedCountry(country);
 
         const phoneNumber = getRandom(phonePrefixMapping[_country]) + generatePhoneNumber({phoneNumberLength: phoneNumberLengthMapping[_country]});

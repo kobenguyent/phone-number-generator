@@ -14,7 +14,7 @@ $ npm i phone-mobile-generator
 ```js
 import { PhoneNumber } from "phone-mobile-generator";
 
-console.log(new PhoneNumber().phoneNumberGenerator('SA')); // prints "5039485900"
+console.log(PhoneNumber.phoneNumberGenerator('SA')); // prints "5039485900"
 // with country code
-console.log(new PhoneNumber().phoneNumberGenerator('SA', true)); // prints "+9665039485900"
+console.log(PhoneNumber.phoneNumberGenerator('SA', true)); // prints "+9665039485900"
 ```
