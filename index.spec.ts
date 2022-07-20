@@ -39,5 +39,5 @@ test('should return the correct phone number - KW', () => {
 test('should return the correct phone number - BH', () => {
     const phoneNumber = PhoneNumber.phoneNumberGenerator('BH');
     expect(phoneNumber).toMatch(/^(322|383|384|388|340|341|377|343|344|345)/);
-    expect(phoneNumber.length).toEqual(9);
+    expect(phoneNumber.length).toEqual(8);
 });

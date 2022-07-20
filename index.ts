@@ -1,7 +1,7 @@
 const supportedCountryList = ['DE', 'SA', 'AE', 'KW', 'BH', 'QA', 'OM', 'VN'];
 const countryPhoneCodeMapping = {'DE': '+49','SA': '+966', 'AE': '+971', 'KW': '+965', 'BH': '+973', 'QA': '+974', 'OM': '+968', 'VN': '+84'};
 const phoneNumberLengthMapping = {
-    'DE': 7, 'SA': 7, 'AE': 7, 'KW': 6, 'BH': 6, 'QA': 6, 'OM': 6, 'VN': 7
+    'DE': 7, 'SA': 7, 'AE': 7, 'KW': 6, 'BH': 5, 'QA': 6, 'OM': 6, 'VN': 7
 }
 const phonePrefixMapping = {
     'DE': ['151', '160', '170', '171', '175', '152', '162', '172', '173', '174', '155', '157', '159', '163', '176', '177', '178', '179'],
