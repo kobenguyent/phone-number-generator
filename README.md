@@ -1,4 +1,4 @@
-# phone-mobile-generator
+# phone-number-generator
 
 Creates random mobile phone numbers with a given country id.
 Right now, supported countries are Germany(DE), Vietnam(VN), Saudi(SA), UAE(AE), Kuwait(KW), Bahrain(BH), Qatar(QA), Oman(OM). More on the way...
@@ -6,13 +6,13 @@ Right now, supported countries are Germany(DE), Vietnam(VN), Saudi(SA), UAE(AE),
 # Installation
 
 ```sh
-$ npm i phone-mobile-generator
+$ npm i phone-number-generator
 ```
 
 # Usage
 
 ```js
-import { PhoneNumber } from "phone-mobile-generator";
+import { PhoneNumber } from "phone-number-generator";
 
 console.log(PhoneNumber.phoneNumberGenerator('SA')); // prints "5039485900"
 // with country code
