@@ -4,7 +4,7 @@
   "description": "Mobile Phone number generator: GE, SA, UAE, KW, BH, QA, OM",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage",
     "semantic-release": "semantic-release",
     "build": "tsc",
     "lint": "rome check src",
@@ -34,7 +34,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/PeterNgTr/phone-number-generator.git"
+    "url": "https://github.com/kobenguyent/phone-number-generator.git"
   },
   "release": {
     "branches": [
