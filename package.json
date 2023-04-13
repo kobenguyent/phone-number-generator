@@ -36,6 +36,10 @@
     "type": "git",
     "url": "https://github.com/kobenguyent/phone-number-generator.git"
   },
+  "bugs": {
+    "url": "https://github.com/kobenguyent/phone-number-generator/issues"
+  },
+  "homepage": "https://github.com/kobenguyent/phone-number-generator#readme",
   "release": {
     "branches": [
       "main"
