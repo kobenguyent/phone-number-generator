@@ -2,7 +2,7 @@
   "name": "phone-number-generator",
   "version": "1.0.1",
   "description": "Mobile Phone number generator: GE, SA, UAE, KW, BH, QA, OM",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "jest --coverage",
     "semantic-release": "semantic-release",

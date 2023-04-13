@@ -2,17 +2,20 @@
 [![codecov](https://codecov.io/gh/kobenguyent/phone-number-generator/branch/main/graph/badge.svg?token=2BZRBS7U27)](https://codecov.io/gh/kobenguyent/phone-number-generator)
 # phone-number-generator
 
+NPM package: https://www.npmjs.com/package/phone-number-generator
+
 Create random mobile phone numbers with a given country.
-Right now, supported countries are
-🇩🇪 Germany(DE),
-🇻🇳 Vietnam(VN),
-🇸🇦 Saudi(SA),
-🇦🇪 UAE(AE),
-🇰🇼 Kuwait(KW),
-🇧🇭 Bahrain(BH),
-🇶🇦 Qatar(QA),
-🇴🇲 Oman(OM). 
-More on the way...
+Right now, supported countries are:
+- 🇩🇪 Germany(DE),
+- 🇻🇳 Vietnam(VN),
+- 🇸🇦 Saudi(SA),
+- 🇦🇪 UAE(AE),
+- 🇰🇼 Kuwait(KW),
+- 🇧🇭 Bahrain(BH),
+- 🇶🇦 Qatar(QA),
+- 🇴🇲 Oman(OM). 
+
+- More on the way...
 
 # Installation
 
