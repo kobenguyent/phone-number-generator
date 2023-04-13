@@ -1,9 +1,9 @@
-import { PhoneNumber } from "./index";
+import { PhoneNumber } from "../src";
 
 test('should return the correct phone number - Germany', () => {
     const phoneNumber = PhoneNumber.phoneNumberGenerator('DE');
-    expect(phoneNumber).toMatch(/^(16|17)/);
-    expect(phoneNumber.length).toEqual(10);
+    expect(phoneNumber).toMatch(/^(15|16|17)/);
+    phoneNumber.startsWith('15') === true ? expect(phoneNumber.length).toEqual(11) : expect(phoneNumber.length).toEqual(10);
 });
 
 test('should return the correct phone number - KSA', () => {
@@ -26,8 +26,8 @@ test('should return the correct phone number - UAE', () => {
 
 test('should return the correct phone number - non supported country', () => {
     const phoneNumber = PhoneNumber.phoneNumberGenerator('ABC');
-    expect(phoneNumber).toMatch(/^(55|50)/);
-    expect(phoneNumber.length).toEqual(9);
+    expect(phoneNumber).toMatch(/^(15|16|17)/);
+    phoneNumber.startsWith('15') === true ? expect(phoneNumber.length).toEqual(11) : expect(phoneNumber.length).toEqual(10);
 });
 
 test('should return the correct phone number - KW', () => {
