@@ -13,7 +13,8 @@
     "outDir": "./dist",
     "baseUrl": "./",
     "rootDir": "./src",
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "removeComments": false
   },
   "exclude": ["node_modules",
     "__tests__/index.spec.ts", "dist"

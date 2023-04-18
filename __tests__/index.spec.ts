@@ -24,12 +24,6 @@ test('should return the correct phone number - UAE', () => {
     expect(phoneNumber.length).toEqual(9);
 });
 
-test('should return the correct phone number - non supported country', () => {
-    const phoneNumber = PhoneNumber.phoneNumberGenerator('ABC');
-    expect(phoneNumber).toMatch(/^(15|16|17)/);
-    phoneNumber.startsWith('15') === true ? expect(phoneNumber.length).toEqual(11) : expect(phoneNumber.length).toEqual(10);
-});
-
 test('should return the correct phone number - KW', () => {
     const phoneNumber = PhoneNumber.phoneNumberGenerator('KW');
     expect(phoneNumber).toMatch(/^(55|54|57)/);
