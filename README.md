@@ -13,9 +13,16 @@ Right now, supported countries are:
 - 🇰🇼 Kuwait(KW),
 - 🇧🇭 Bahrain(BH),
 - 🇶🇦 Qatar(QA),
-- 🇴🇲 Oman(OM). 
-
-- More on the way...
+- 🇴🇲 Oman(OM),
+- 🇺🇸 United States(US),
+- 🇬🇧 United Kingdom(UK),
+- 🇫🇷 France(FR),
+- 🇮🇳 India(IN),
+- 🇦🇺 Australia(AU),
+- 🇨🇦 Canada(CA),
+- 🇯🇵 Japan(JP),
+- 🇮🇹 Italy(IT),
+- 🇪🇸 Spain(ES).
 
 # Installation
 
